@@ -8,7 +8,7 @@ Logic cũ để chạy code:
 Trong yêu cầu
 > - Để add notify thì import action-creator và gọi hàm addNotifyItem và truyền vào các props của item
 
-Em không rõ tham số để chuyền vào cho hàm addNotifyItem. Nên khi thay đổi và gọi components index thì trang trắng. Ngoài ra em đã cố gắng với kiến thức Fresher Reactjs của mình để convert thành function components rồi. Nếu có góp ý và review source code anh có thể comment ở mục Issues giúp em với ạ em cảm ơn anh.
+Em không rõ tham số để chuyền vào cho hàm addNotifyItem. Nên khi thay đổi và gọi components index thì trang trắng. Ngoài ra em đã cố với kiến thức Reactjs của mình để convert thành function components . Nếu có góp ý và review source code anh có thể comment ở mục Issues giúp em với ạ em cảm ơn anh.
 
-[x] https://github.com/toduyen/TestConvertClassToFunction/issues/1#issue-971137302
+[ x ] https://github.com/toduyen/TestConvertClassToFunction/issues/1#issue-971137302 
 
