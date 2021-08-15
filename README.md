@@ -10,5 +10,5 @@ Trong yêu cầu
 
 Em không rõ tham số để chuyền vào cho hàm addNotifyItem. Nên khi thay đổi và gọi components index thì trang trắng. Ngoài ra em đã cố gắng với kiến thức Fresher Reactjs của mình để convert thành function components rồi. Nếu có góp ý và review source code anh có thể comment ở mục Issues giúp em với ạ em cảm ơn anh.
 
-[x]#1
+[x] https://github.com/toduyen/TestConvertClassToFunction/issues/1#issue-971137302
 
