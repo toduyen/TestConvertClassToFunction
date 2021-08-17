@@ -26,12 +26,12 @@ function NotificationSystem(style,noAnimation,allowHTML) {
     NotificationStore.addListenerRemoveNotification(_onRemoveNotifyItem);
     setOverrideStyle(style);
     set_isMounted(true);
+    return () => {
+      NotificationStore.removeListenerAddNotification(_onAddNotifyItem);
+      NotificationStore.removeListenerRemoveNotification(_onRemoveNotifyItem);
+      set_isMounted(false);
+    }
   })
-  useEffect(() => {
-    NotificationStore.removeListenerAddNotification(_onAddNotifyItem);
-    NotificationStore.removeListenerRemoveNotification(_onRemoveNotifyItem);
-    set_isMounted(false);
-  }, [set_isMounted])
 
   const setOverrideStyle = (style) => {
     SetOverrideStyle(style);
